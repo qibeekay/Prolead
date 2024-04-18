@@ -5,7 +5,7 @@ import CareersDetails from '../components/CareersDetails';
 const Careers = () => {
 	const h1 = 'Careers';
 	const link = 'careers';
-	const bg = 'bg-about';
+	const bg = 'bg-career';
 	return (
 		<div>
 			<OtherHero me={h1} to={link} bg={bg} />

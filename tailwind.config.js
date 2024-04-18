@@ -30,6 +30,7 @@ export default {
 				abt3: "url('./assets/abt-3.png')",
 				mission: "url('./assets/mission.png')",
 				corporate: "url('./assets/imgs.jpg')",
+				career: "url('./assets/imgsss.jpg')",
 			},
 		},
 		screens: {
