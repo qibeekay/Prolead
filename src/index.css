@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	/* background-color: #1E1E1E; */
+	font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+	@apply px-6 py-3 rounded-xl font-bold;
+}
+
+.grid-template {
+	grid-template-areas:
+		'a b c c d e f f'
+		'g h h i j k l l'
+		'm n n o p q r r'
+		's t t u v w x x'
+		'y y y y y y y y';
+}
+
+.a {
+	grid-area: a;
+}
+.b {
+	grid-area: b;
+}
+.c {
+	grid-area: c;
+}
+.d {
+	grid-area: d;
+}
+.f {
+	grid-area: f;
+}
+.e {
+	grid-area: e;
+}
+.g {
+	grid-area: g;
+}
+.h {
+	grid-area: h;
+}
+.i {
+	grid-area: i;
+}
+.j {
+	grid-area: j;
+}
+.k {
+	grid-area: k;
+}
+.l {
+	grid-area: l;
+}
+.m {
+	grid-area: m;
+}
+.n {
+	grid-area: n;
+}
+.o {
+	grid-area: o;
+}
+.p {
+	grid-area: p;
+}
+.q {
+	grid-area: q;
+}
+.r {
+	grid-area: r;
+}
+.s {
+	grid-area: s;
+}
+.t {
+	grid-area: t;
+}
+.u {
+	grid-area: u;
+}
+.v {
+	grid-area: v;
+}
+.w {
+	grid-area: w;
+}
+.x {
+	grid-area: x;
+}
+.y {
+	grid-area: y;
+}
