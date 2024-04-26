@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Img from '../assets/f-logo.png';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
 	return (
@@ -21,6 +22,10 @@ const Footer = () => {
 								<div>
 									<p className=' font-bold'>Canada</p>
 									<p className=''>6167 Oak Meadows Drive, Ottawa, ON K1C 7G8</p>
+									<p>
+										<span className='font-semibold'>Phone:</span> +1 343 987
+										3818
+									</p>
 								</div>
 
 								<div>
@@ -29,7 +34,6 @@ const Footer = () => {
 										Suite B010, Shekinah Plaza, Samuel Ladoke Akintola Boulevard
 										Garki II, Abuja 
 									</p>
-									<p>Phone: +1 343 987 3818</p>
 								</div>
 
 								<div>
@@ -67,8 +71,19 @@ const Footer = () => {
 										{' '}
 										For Enquiry/Support
 									</h1>
-									<p className=''>+1 343 987 3818</p>
-									<p className='mt-2'>+234 803 154 3818</p>
+
+									<Link
+										to={'http://wa.me/+13439873818'}
+										className='flex gap-1 items-center'>
+										<FaWhatsapp size={20} />
+										<p className=''>+1 343 987 3818</p>
+									</Link>
+									<Link
+										to={'http://wa.me/+2348031543818'}
+										className='flex gap-1 items-center'>
+										<FaWhatsapp size={20} className='mt-2' />
+										<p className='mt-2'>+234 803 154 3818</p>
+									</Link>
 								</div>
 							</div>
 						</div>

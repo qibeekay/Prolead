@@ -6,7 +6,7 @@ const Product = () => {
 		<div className='w-full font-nunito text-lightBlue'>
 			<div className='max-w-6xl mx-auto px-4 pb-10 pt-16'>
 				<h1 className='text-center text-darkBlue text-2xl xs:text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-nunito font-bold my-5'>
-					Product and Services
+					What we do?
 				</h1>
 
 				<div className=' flex flex-col md:flex-row pt-6 pb-10'>

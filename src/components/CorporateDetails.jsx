@@ -14,17 +14,20 @@ const CorporateDetails = () => {
 		<div className='w-full text-lightBlue'>
 			<div className='max-w-6xl px-4 mx-auto py-20'>
 				<div className='font-medium flex flex-col gap-10'>
-					<p className='leading-8 md:pr-[10rem]'>
-						Our corporate training aims at fortifying business leaders and
-						employees with adequate skills required to navigate the increasing
-						complexities, challenges, and uncertainties in the business world.
-						Work environment has become highly complex and dynamic with
-						innovation and technological advancement, and the only way to keep
-						up and stay relevant is through continuous on-the-job learning and
-						personal development. This need does not spare anyone whether you
-						are at top management level or at the lowest level of the
-						organizational chart. Our corporate training covers wide range of
-						topics to help you achieve the training needs of your organization.
+					<p className='leading-8 md:pr-[10rem] grid'>
+						<i className='text-sm mb-2'>
+							<q>Once we stop learning, we start dying.</q> - Albert Einstein
+						</i>
+						Our corporate training programs are designed to equip business
+						leaders, managers, and employees at all levels with the essential
+						skills needed to address the growing complexities, challenges, and
+						uncertainties of today's business landscape. As the work environment
+						evolves with rapid technological advances and continuous innovation,
+						maintaining relevance requires ongoing, on-the-job learning. No one,
+						from top executives to entry-level staff, is exempt from this
+						requirement. Our comprehensive training offerings span a broad
+						spectrum of topics, ensuring that both organizational and personal
+						development needs are met effectively. Our services cover:
 					</p>
 
 					{/* accordion */}
